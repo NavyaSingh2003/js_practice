@@ -56,3 +56,28 @@ console.log(typeof anotherId);
 //  determined by the value they hold at runtime 
 //  and can change throughout the program as we 
 //  assign different values to them.
+
+
+// Q) where is stack and heap memory used in js?
+// stack (primitive datatypes are stored in stack) and heap (non-primitives in heap)
+// a copy of value is given if anything stored in 'stack' while reference is given if anything stored in 'heap'
+
+//primitive example
+let myname = "navya"
+let anothername = "shivi"
+anothername = "shivaaa"
+console.log(myname);  //jb copy bhji jati h toh original value kyuhi change hogi
+console.log(anothername);
+
+
+//non-primitive example
+let userOne = {
+    email: "user@googole.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+ 
+userTwo.email = "navya@google.com" //memory pe jake change hogi
+
+console.log(userOne.email);
+console.log(userTwo.email);

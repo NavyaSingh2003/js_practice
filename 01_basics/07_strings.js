@@ -10,7 +10,7 @@ const gameName = new String('hitesh-hc-com')
 /* some functions of strings -> study them for interviews too */ 
 
 // console.log(gameName[0]);
-// console.log(gameName.__proto__);
+// console.log(gameName.__proto__); 
 
 
 // console.log(gameName.length);

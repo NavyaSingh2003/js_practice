@@ -45,7 +45,7 @@ if (true) {
 
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
-
+//this concept is caled 'hoisting'
 //1) declaration se pehle access krskte h agr aise declaration krege func ki
 console.log(addone(5))
 

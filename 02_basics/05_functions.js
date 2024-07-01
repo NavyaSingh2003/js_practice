@@ -40,18 +40,23 @@ function loginUserMessage(username = "sam"){
 // console.log(loginUserMessage("hitesh"))
 
 
+
+// function calculateCartPrice(...num1){ //jb hme nhi pta kitne arguments aayge then use rest operator. Ye 'rest' aur 'spread' operator dono kaha jata h but diff places par yahn it is rest 
+//     return num1
+// }
 function calculateCartPrice(val1, val2, ...num1){
     return num1
 }
-
 // console.log(calculateCartPrice(200, 400, 500, 2000))
+
+
 
 const user = {
     username: "hitesh",
     prices: 199
 }
 
-function handleObject(anyobject){
+function handleObject(anyobject){  //function m 'object' type ka argument pass krhe h 
     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
 }
 
@@ -61,9 +66,11 @@ handleObject({
     price: 399
 })
 
+
+
 const myNewArray = [200, 400, 100, 600]
 
-function returnSecondValue(getArray){
+function returnSecondValue(getArray){  //function m 'array' type ka argument pass krhe h 
     return getArray[1]
 }
 

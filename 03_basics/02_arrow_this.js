@@ -36,12 +36,16 @@ const chai =  () => {
 // chai()
 
 
-/* arrow function -> explicit 'return' */
+/* arrow function -> explicit 'return'
+   used for multi-line functions
+*/
 // const addTwo = (num1, num2) => {
 //     return num1 + num2
 // }
 
-/* arrow function -> implicit 'return' */
+/* arrow function -> implicit 'return' 
+    used for single-line functions wher we want to directly return a value
+*/
 // const addTwo = (num1, num2) =>  num1 + num2
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
@@ -54,6 +58,3 @@ const addTwo = (num1, num2) => ({username: "hitesh"})   //arrow func. ko 'object
 console.log(addTwo(3, 4))
 
 
-// const myArray = [2, 5, 3, 7, 8]
-
-// myArray.forEach()

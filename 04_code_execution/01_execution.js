@@ -1,3 +1,4 @@
+// for proper understanding -- see vdo 25 of chai aur js playlist 
 // We will study how execution of code takes place in JS
 // "Global execution context" (GEC) is essential in code execution process. It works somewhat diff for browser, node env., deno etc. 
 // 'GEC' is allocated in a variable 'this' whose value is 'window object' in case of 'browser'. 

@@ -1,4 +1,7 @@
-// Q) see image of 'dom working' in vdo 31 of chai aur js 
+<!-- Link to study selectors: https://blog.bitsrc.io/dom-selectors-explained-70260049aaf0 -->
+<!-- how to add, edit and remove elements in dom https://medium.com/@alperen.talaslioglu/javascript-dom-element-creating-adding-updating-and-deleting-dom-manipulations-a3515c75e9bf -->
+
+<!-- // Q) see image of 'dom working' in vdo 31 of chai aur js  -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +17,7 @@
     </style>
 </head>
 <body class="bg-black">
-    <div >
+    <div>
         <h1  id="title" class="heading">DOM learning on Chai aur code <span style="display: none;">test text</span></h1>
         <h2>Lorem ipsum dolor sit.</h2>
         <h2>Lorem ipsum dolor sit.</h2>
@@ -31,3 +34,18 @@
     </div>
 </body>
 </html>
+
+<!-- 
+//Q) we have to fetch all the links from a given page that contains the text 'javascript'
+
+// Select all <a> elements on the page
+    const links = document.querySelectorAll('a');
+    
+    // Filter the links to find those containing the text 'javascript'
+    const filteredLinks = Array.from(links).filter(link => link.textContent.toLowerCase().includes('javascript'));
+    
+    // Print the href attribute of each filtered link
+    filteredLinks.forEach(link => {
+        console.log(link.href);
+    });
+     -->
